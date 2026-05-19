@@ -219,11 +219,11 @@ public class MyBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "Uz3dPrinterXizmatlariBot";
+        return "printify3d_bot";
     }
 
     @Override
     public String getBotToken() {
-        return "8446024501:AAEMPqjf0ZF1FaZ5CwvEynoxLeenjecYxuk";
+        return "8972015888:AAF17lIlGqAhh0A8z-RNZ4Z_GdexG77KURM";
     }
 }
