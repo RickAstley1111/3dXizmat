@@ -63,7 +63,6 @@ public class MyBot extends TelegramLongPollingBot {
                 editMessageText.setChatId(chatId);
                 editMessageText.setMessageId(messageId);
                 editMessageText.setText(" Assalomu alaykum!\n" +
-                        "tanlangan faylini @AbrorbekBurxonov159 ga jonating\uD83E\uDDF1;\n" +
                         "⚙\uFE0F3d Printerda narsalar chiqarishni Boshlang⚙\uFE0F");
 
                 editMessageText.setReplyMarkup(myBotService.StarterInline(chatId));
@@ -197,18 +196,7 @@ public class MyBot extends TelegramLongPollingBot {
                 EditMessageText editMessageText = new EditMessageText();
                 editMessageText.setChatId(chatId);
                 editMessageText.setMessageId(messageId);
-                editMessageText.setText("\uD83D\uDCD0 Zakazga model yasash\n" +
-                        "\n" +
-                        "Bu bo‘limda siz chizmalaringiz asosida 3D model buyurtma qilishingiz mumkin.\n" +
-                        "Iltimos, quyidagilarni yodda tuting:\n" +
-                        "\n" +
-                        "Model juda murakkab bo‘lmasligi kerak.\n" +
-                        "\n" +
-                        "Siz taqdim qilgan chizma yoki rasm asosida model tayyorlanadi.\n" +
-                        "\n" +
-                        "tayyor modelni 3D bosib berilgan holatda, chop etilgan buyum narxiga +30% xizmat haqi qo‘shiladi.\n" +
-                        "\n" +
-                        "Buyurtma berish uchun model haqida qisqacha ma’lumot va chizmalarni yuboring.");
+                editMessageText.setText("https://www.printify.uz/");
                 editMessageText.setReplyMarkup(myBotService.OrtgaQaeytargich(chatId));
 
 
